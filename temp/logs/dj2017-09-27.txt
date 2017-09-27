@@ -578,3 +578,34 @@
             WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
             ORDER BY name; args=None
 [2017-09-27 11:03:05] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[2017-09-27 11:07:57] DEBUG [django.db.backends:90] (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[2017-09-27 11:07:57] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[2017-09-27 11:08:02] INFO [django.server:131] "GET /api/catalogo/categorias?query= HTTP/1.1" 301 0
+[2017-09-27 11:08:02] WARNING [django.server:131] "GET /api/catalogo/categorias/?query= HTTP/1.1" 401 58
+[2017-09-27 11:08:42] DEBUG [django.db.backends:90] (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[2017-09-27 11:08:42] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[2017-09-27 11:08:52] DEBUG [django.db.backends:90] (0.000) SELECT "catalogo_categoria"."id", "catalogo_categoria"."nombre", "catalogo_categoria"."codigo", "catalogo_categoria"."estado" FROM "catalogo_categoria" WHERE ("catalogo_categoria"."codigo" LIKE '%%' ESCAPE '\' OR "catalogo_categoria"."nombre" LIKE '%%' ESCAPE '\'); args=('%%', '%%')
+[2017-09-27 11:08:52] INFO [django.server:131] "GET /api/catalogo/categorias/?query= HTTP/1.1" 200 2
+[2017-09-27 11:09:41] INFO [django.server:131] "OPTIONS /api/catalogo/categorias/ HTTP/1.1" 200 0
+[2017-09-27 11:09:41] DEBUG [django.db.backends:90] (0.000) SELECT "catalogo_categoria"."id", "catalogo_categoria"."nombre", "catalogo_categoria"."codigo", "catalogo_categoria"."estado" FROM "catalogo_categoria" WHERE ("catalogo_categoria"."codigo" LIKE '%%' ESCAPE '\' OR "catalogo_categoria"."nombre" LIKE '%%' ESCAPE '\'); args=('%%', '%%')
+[2017-09-27 11:09:41] INFO [django.server:131] "GET /api/catalogo/categorias/?query= HTTP/1.1" 200 2
+[2017-09-27 11:09:42] DEBUG [django.db.backends:90] (0.000) BEGIN; args=None
+[2017-09-27 11:09:42] DEBUG [django.db.backends:90] (0.001) INSERT INTO "catalogo_categoria" ("id", "nombre", "codigo", "estado") SELECT 'c69559817af04ad78ea4136486c55d5d', 'Cat 01', '01', 1; args=('c69559817af04ad78ea4136486c55d5d', 'Cat 01', '01', True)
+[2017-09-27 11:09:42] INFO [django.server:131] "POST /api/catalogo/categorias/ HTTP/1.1" 201 91
+[2017-09-27 11:09:51] DEBUG [django.db.backends:90] (0.001) SELECT "catalogo_categoria"."id", "catalogo_categoria"."nombre", "catalogo_categoria"."codigo", "catalogo_categoria"."estado" FROM "catalogo_categoria" WHERE ("catalogo_categoria"."codigo" LIKE '%%' ESCAPE '\' OR "catalogo_categoria"."nombre" LIKE '%%' ESCAPE '\'); args=('%%', '%%')
+[2017-09-27 11:09:51] INFO [django.server:131] "GET /api/catalogo/categorias/?query= HTTP/1.1" 200 93
+[2017-09-27 11:09:54] DEBUG [django.db.backends:90] (0.000) SELECT "catalogo_categoria"."id", "catalogo_categoria"."nombre", "catalogo_categoria"."codigo", "catalogo_categoria"."estado" FROM "catalogo_categoria" WHERE ("catalogo_categoria"."codigo" LIKE '%%' ESCAPE '\' OR "catalogo_categoria"."nombre" LIKE '%%' ESCAPE '\'); args=('%%', '%%')
+[2017-09-27 11:09:54] INFO [django.server:131] "GET /api/catalogo/categorias/?query= HTTP/1.1" 200 93
+[2017-09-27 11:10:01] DEBUG [django.db.backends:90] (0.000) BEGIN; args=None
+[2017-09-27 11:10:01] DEBUG [django.db.backends:90] (0.002) INSERT INTO "catalogo_categoria" ("id", "nombre", "codigo", "estado") SELECT 'b64d1dddd76b467f950689022d1e3564', 'Cat2', '02', 1; args=('b64d1dddd76b467f950689022d1e3564', 'Cat2', '02', True)
+[2017-09-27 11:10:01] INFO [django.server:131] "POST /api/catalogo/categorias/ HTTP/1.1" 201 89
+[2017-09-27 11:10:01] DEBUG [django.db.backends:90] (0.001) SELECT "catalogo_categoria"."id", "catalogo_categoria"."nombre", "catalogo_categoria"."codigo", "catalogo_categoria"."estado" FROM "catalogo_categoria" WHERE ("catalogo_categoria"."codigo" LIKE '%%' ESCAPE '\' OR "catalogo_categoria"."nombre" LIKE '%%' ESCAPE '\'); args=('%%', '%%')
+[2017-09-27 11:10:01] INFO [django.server:131] "GET /api/catalogo/categorias/?query= HTTP/1.1" 200 183
+[2017-09-27 11:15:05] DEBUG [django.db.backends:90] (0.001) SELECT "catalogo_categoria"."id", "catalogo_categoria"."nombre", "catalogo_categoria"."codigo", "catalogo_categoria"."estado" FROM "catalogo_categoria" WHERE ("catalogo_categoria"."codigo" LIKE '%%' ESCAPE '\' OR "catalogo_categoria"."nombre" LIKE '%%' ESCAPE '\'); args=('%%', '%%')
+[2017-09-27 11:15:05] INFO [django.server:131] "GET /api/catalogo/categorias/?query= HTTP/1.1" 200 183
