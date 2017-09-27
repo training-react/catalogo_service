@@ -1,0 +1,270 @@
+[2016-12-15 17:28:55] DEBUG [django.db.backends:90] (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 17:28:55] DEBUG [django.db.backends:90] (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 17:28:55] DEBUG [django.db.backends:90] (0.001) SELECT VERSION(); args=None
+[2016-12-15 17:28:55] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 17:28:55] DEBUG [django.db.backends:90] (0.249) SHOW FULL TABLES; args=None
+[2016-12-15 17:28:55] DEBUG [django.db.backends:90] (0.007) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 17:29:21] DEBUG [django.db.backends:90] (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 17:29:21] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 17:29:21] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 17:29:22] DEBUG [django.db.backends:90] (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 17:29:22] DEBUG [django.db.backends:90] (0.003) SHOW FULL TABLES; args=None
+[2016-12-15 17:29:22] DEBUG [django.db.backends:90] (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 17:29:36] DEBUG [django.db.backends:90] (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 17:29:36] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 17:29:36] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 17:29:37] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 17:29:37] DEBUG [django.db.backends:90] (0.002) SHOW FULL TABLES; args=None
+[2016-12-15 17:29:37] DEBUG [django.db.backends:90] (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 17:29:50] DEBUG [django.db.backends:90] (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 17:29:50] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 17:29:50] DEBUG [django.db.backends:90] (0.001) SELECT VERSION(); args=None
+[2016-12-15 17:29:50] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 17:29:50] DEBUG [django.db.backends:90] (0.003) SHOW FULL TABLES; args=None
+[2016-12-15 17:29:50] DEBUG [django.db.backends:90] (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 17:30:24] DEBUG [django.db.backends:90] (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 17:30:24] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 17:30:24] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 17:30:25] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 17:30:25] DEBUG [django.db.backends:90] (0.003) SHOW FULL TABLES; args=None
+[2016-12-15 17:30:25] DEBUG [django.db.backends:90] (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 17:32:08] DEBUG [django.db.backends:90] (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 17:32:08] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 17:32:08] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 17:32:09] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 17:32:09] DEBUG [django.db.backends:90] (0.002) SHOW FULL TABLES; args=None
+[2016-12-15 17:32:09] DEBUG [django.db.backends:90] (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 18:08:18] DEBUG [django.db.backends:90] (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 18:08:18] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:08:18] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 18:08:19] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:08:19] DEBUG [django.db.backends:90] (0.004) SHOW FULL TABLES; args=None
+[2016-12-15 18:08:19] DEBUG [django.db.backends:90] (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 18:08:24] DEBUG [django.db.backends:90] (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 18:08:24] DEBUG [django.db.backends:90] (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:08:24] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 18:08:24] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:08:24] DEBUG [django.db.backends:90] (0.002) SHOW FULL TABLES; args=None
+[2016-12-15 18:08:24] DEBUG [django.db.backends:90] (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 18:08:26] DEBUG [django.db.backends:90] (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 18:08:26] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:08:26] DEBUG [django.db.backends:90] (0.001) SELECT VERSION(); args=None
+[2016-12-15 18:08:26] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:08:26] DEBUG [django.db.backends:90] (0.003) SHOW FULL TABLES; args=None
+[2016-12-15 18:08:26] DEBUG [django.db.backends:90] (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 18:10:15] DEBUG [django.db.backends:90] (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 18:10:15] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:10:15] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 18:10:15] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:10:15] DEBUG [django.db.backends:90] (0.002) SHOW FULL TABLES; args=None
+[2016-12-15 18:10:15] DEBUG [django.db.backends:90] (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 18:10:17] DEBUG [django.db.backends:90] (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 18:10:17] DEBUG [django.db.backends:90] (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:10:17] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 18:10:17] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:10:17] DEBUG [django.db.backends:90] (0.002) SHOW FULL TABLES; args=None
+[2016-12-15 18:10:17] DEBUG [django.db.backends:90] (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 18:11:37] DEBUG [django.db.backends:90] (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 18:11:37] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:11:37] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 18:11:37] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:11:37] DEBUG [django.db.backends:90] (0.003) SHOW FULL TABLES; args=None
+[2016-12-15 18:11:37] DEBUG [django.db.backends:90] (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 18:11:55] DEBUG [django.db.backends:90] (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 18:11:55] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:11:55] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 18:11:56] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:11:56] DEBUG [django.db.backends:90] (0.003) SHOW FULL TABLES; args=None
+[2016-12-15 18:11:56] DEBUG [django.db.backends:90] (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 18:12:06] DEBUG [django.db.backends:90] (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 18:12:06] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:12:06] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 18:12:06] DEBUG [django.db.backends:90] (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:12:06] DEBUG [django.db.backends:90] (0.002) SHOW FULL TABLES; args=None
+[2016-12-15 18:12:06] DEBUG [django.db.backends:90] (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 18:12:11] DEBUG [django.db.backends:90] (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 18:12:11] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:12:11] DEBUG [django.db.backends:90] (0.001) SELECT VERSION(); args=None
+[2016-12-15 18:12:12] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:12:12] DEBUG [django.db.backends:90] (0.002) SHOW FULL TABLES; args=None
+[2016-12-15 18:12:12] DEBUG [django.db.backends:90] (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 18:12:31] DEBUG [django.db.backends:90] (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 18:12:31] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:12:31] DEBUG [django.db.backends:90] (0.001) SELECT VERSION(); args=None
+[2016-12-15 18:12:32] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:12:32] DEBUG [django.db.backends:90] (0.003) SHOW FULL TABLES; args=None
+[2016-12-15 18:12:32] DEBUG [django.db.backends:90] (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 18:12:55] DEBUG [django.db.backends:90] (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 18:12:55] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:12:55] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 18:12:55] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:12:55] DEBUG [django.db.backends:90] (0.003) SHOW FULL TABLES; args=None
+[2016-12-15 18:12:55] DEBUG [django.db.backends:90] (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 18:13:31] DEBUG [django.db.backends:90] (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 18:13:31] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:13:31] DEBUG [django.db.backends:90] (0.001) SELECT VERSION(); args=None
+[2016-12-15 18:13:31] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:13:31] DEBUG [django.db.backends:90] (0.003) SHOW FULL TABLES; args=None
+[2016-12-15 18:13:31] DEBUG [django.db.backends:90] (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 18:14:01] DEBUG [django.db.backends:90] (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 18:14:01] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:14:01] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 18:14:01] DEBUG [django.db.backends:90] (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:14:01] DEBUG [django.db.backends:90] (0.003) SHOW FULL TABLES; args=None
+[2016-12-15 18:14:01] DEBUG [django.db.backends:90] (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 18:14:25] DEBUG [django.db.backends:90] (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 18:14:25] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:14:25] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 18:14:25] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:14:25] DEBUG [django.db.backends:90] (0.004) SHOW FULL TABLES; args=None
+[2016-12-15 18:14:25] DEBUG [django.db.backends:90] (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 18:14:28] DEBUG [django.db.backends:90] (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 18:14:28] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:14:28] DEBUG [django.db.backends:90] (0.001) SELECT VERSION(); args=None
+[2016-12-15 18:14:28] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:14:28] DEBUG [django.db.backends:90] (0.003) SHOW FULL TABLES; args=None
+[2016-12-15 18:14:28] DEBUG [django.db.backends:90] (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 18:14:31] DEBUG [django.db.backends:90] (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 18:14:31] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:14:31] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 18:14:31] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:14:31] DEBUG [django.db.backends:90] (0.002) SHOW FULL TABLES; args=None
+[2016-12-15 18:14:31] DEBUG [django.db.backends:90] (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 18:14:38] DEBUG [django.db.backends:90] (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 18:14:38] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:14:38] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 18:14:38] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:14:38] DEBUG [django.db.backends:90] (0.002) SHOW FULL TABLES; args=None
+[2016-12-15 18:14:38] DEBUG [django.db.backends:90] (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 18:15:05] DEBUG [django.db.backends:90] (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 18:15:05] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:15:05] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 18:15:05] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:15:05] DEBUG [django.db.backends:90] (0.002) SHOW FULL TABLES; args=None
+[2016-12-15 18:15:05] DEBUG [django.db.backends:90] (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 18:15:24] DEBUG [django.db.backends:90] (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 18:15:24] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:15:24] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 18:15:24] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:15:24] DEBUG [django.db.backends:90] (0.002) SHOW FULL TABLES; args=None
+[2016-12-15 18:15:24] DEBUG [django.db.backends:90] (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 18:16:10] DEBUG [django.db.backends:90] (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 18:16:10] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:16:10] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 18:16:10] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:16:10] DEBUG [django.db.backends:90] (0.004) SHOW FULL TABLES; args=None
+[2016-12-15 18:16:10] DEBUG [django.db.backends:90] (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 18:16:14] DEBUG [django.db.backends:90] (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 18:16:14] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:16:14] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 18:16:15] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:16:15] DEBUG [django.db.backends:90] (0.002) SHOW FULL TABLES; args=None
+[2016-12-15 18:16:15] DEBUG [django.db.backends:90] (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 18:16:43] DEBUG [django.db.backends:90] (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 18:16:43] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:16:43] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 18:16:44] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:16:44] DEBUG [django.db.backends:90] (0.004) SHOW FULL TABLES; args=None
+[2016-12-15 18:16:44] DEBUG [django.db.backends:90] (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 18:33:18] DEBUG [django.db.backends:90] (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 18:33:18] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:33:18] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 18:33:19] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:33:19] DEBUG [django.db.backends:90] (0.003) SHOW FULL TABLES; args=None
+[2016-12-15 18:33:19] DEBUG [django.db.backends:90] (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 18:33:40] DEBUG [django.db.backends:90] (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 18:33:40] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:33:40] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 18:33:40] DEBUG [django.db.backends:90] (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:33:40] DEBUG [django.db.backends:90] (0.003) SHOW FULL TABLES; args=None
+[2016-12-15 18:33:40] DEBUG [django.db.backends:90] (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 18:33:43] DEBUG [django.db.backends:90] (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 18:33:43] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:33:43] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 18:33:44] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:33:44] DEBUG [django.db.backends:90] (0.002) SHOW FULL TABLES; args=None
+[2016-12-15 18:33:44] DEBUG [django.db.backends:90] (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 18:33:48] DEBUG [django.db.backends:90] (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 18:33:48] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:33:48] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 18:33:48] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:33:48] DEBUG [django.db.backends:90] (0.002) SHOW FULL TABLES; args=None
+[2016-12-15 18:33:48] DEBUG [django.db.backends:90] (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 18:33:55] DEBUG [django.db.backends:90] (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 18:33:55] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:33:55] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 18:33:55] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:33:55] DEBUG [django.db.backends:90] (0.003) SHOW FULL TABLES; args=None
+[2016-12-15 18:33:55] DEBUG [django.db.backends:90] (0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 18:34:12] DEBUG [django.db.backends:90] (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 18:34:12] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:34:12] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 18:34:13] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:34:13] DEBUG [django.db.backends:90] (0.002) SHOW FULL TABLES; args=None
+[2016-12-15 18:34:13] DEBUG [django.db.backends:90] (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 18:34:42] DEBUG [django.db.backends:90] (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 18:34:42] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:34:42] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 18:34:44] DEBUG [django.db.backends:90] (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 18:34:44] DEBUG [django.db.backends:90] (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:34:44] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 18:34:55] DEBUG [django.db.backends:90] (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 18:34:55] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:34:55] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 18:34:55] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 18:34:55] DEBUG [django.db.backends:90] (0.002) SHOW FULL TABLES; args=None
+[2016-12-15 18:34:55] DEBUG [django.db.backends:90] (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 19:07:59] DEBUG [django.db.backends:90] (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 19:07:59] DEBUG [django.db.backends:90] (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 19:07:59] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 19:07:59] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 19:07:59] DEBUG [django.db.backends:90] (0.003) SHOW FULL TABLES; args=None
+[2016-12-15 19:07:59] DEBUG [django.db.backends:90] (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 19:08:17] DEBUG [django.db.backends:90] (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 19:08:17] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 19:08:17] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 19:08:18] DEBUG [django.db.backends:90] (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 19:08:18] DEBUG [django.db.backends:90] (0.003) SHOW FULL TABLES; args=None
+[2016-12-15 19:08:18] DEBUG [django.db.backends:90] (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 19:13:36] DEBUG [django.db.backends:90] (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 19:13:36] DEBUG [django.db.backends:90] (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 19:13:36] DEBUG [django.db.backends:90] (0.001) SELECT VERSION(); args=None
+[2016-12-15 19:13:36] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 19:13:36] DEBUG [django.db.backends:90] (0.002) SHOW FULL TABLES; args=None
+[2016-12-15 19:13:36] DEBUG [django.db.backends:90] (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 19:14:37] DEBUG [django.db.backends:90] (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 19:14:37] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 19:14:37] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 19:14:37] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 19:14:37] DEBUG [django.db.backends:90] (0.002) SHOW FULL TABLES; args=None
+[2016-12-15 19:14:37] DEBUG [django.db.backends:90] (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 19:14:40] DEBUG [django.db.backends:90] (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 19:14:40] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 19:14:40] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 19:14:40] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 19:14:40] DEBUG [django.db.backends:90] (0.002) SHOW FULL TABLES; args=None
+[2016-12-15 19:14:40] DEBUG [django.db.backends:90] (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 19:14:45] DEBUG [django.db.backends:90] (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 19:14:45] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 19:14:45] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 19:14:45] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 19:14:45] DEBUG [django.db.backends:90] (0.003) SHOW FULL TABLES; args=None
+[2016-12-15 19:14:45] DEBUG [django.db.backends:90] (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 19:22:36] DEBUG [django.db.backends:90] (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 19:22:36] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 19:22:36] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 19:22:37] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 19:22:37] DEBUG [django.db.backends:90] (0.002) SHOW FULL TABLES; args=None
+[2016-12-15 19:22:37] DEBUG [django.db.backends:90] (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 19:22:40] DEBUG [django.db.backends:90] (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 19:22:40] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 19:22:40] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 19:22:40] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 19:22:40] DEBUG [django.db.backends:90] (0.004) SHOW FULL TABLES; args=None
+[2016-12-15 19:22:40] DEBUG [django.db.backends:90] (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[2016-12-15 19:22:43] DEBUG [django.db.backends:90] (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+[2016-12-15 19:22:43] DEBUG [django.db.backends:90] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 19:22:43] DEBUG [django.db.backends:90] (0.000) SELECT VERSION(); args=None
+[2016-12-15 19:22:43] DEBUG [django.db.backends:90] (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+[2016-12-15 19:22:43] DEBUG [django.db.backends:90] (0.004) SHOW FULL TABLES; args=None
+[2016-12-15 19:22:43] DEBUG [django.db.backends:90] (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()

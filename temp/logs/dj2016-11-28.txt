@@ -1,0 +1,564 @@
+[2016-11-28 23:40:09] DEBUG [django.db.backends:90] (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[2016-11-28 23:40:09] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[2016-11-28 23:40:50] DEBUG [django.template:929] Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\urls\resolvers.py", line 300, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'path': '', 'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLResolver <module 'django.contrib.auth.urls' from 'E:\\practian-ioteca-project\\ve_auths\\lib\\site-packages\\django\\contrib\\auth\\urls.py'> (None:None) ^accounts/>], [<RegexURLResolver <module 'oauth2_provider.urls' from 'E:\\practian-ioteca-project\\ve_auths\\lib\\site-packages\\oauth2_provider\\urls.py'> (None:oauth2_provider) ^o/>], [<RegexURLResolver <module 'oauth2_backend.urls' from 'E:\\practian-ioteca-project\\django_oauth2_backend\\oauth2_backend\\urls.py'> (None:None) ^api/oauth2_backend/>]]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+[2016-11-28 23:40:50] DEBUG [django.template:929] Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\urls\resolvers.py", line 300, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'path': '', 'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLResolver <module 'django.contrib.auth.urls' from 'E:\\practian-ioteca-project\\ve_auths\\lib\\site-packages\\django\\contrib\\auth\\urls.py'> (None:None) ^accounts/>], [<RegexURLResolver <module 'oauth2_provider.urls' from 'E:\\practian-ioteca-project\\ve_auths\\lib\\site-packages\\oauth2_provider\\urls.py'> (None:oauth2_provider) ^o/>], [<RegexURLResolver <module 'oauth2_backend.urls' from 'E:\\practian-ioteca-project\\django_oauth2_backend\\oauth2_backend\\urls.py'> (None:None) ^api/oauth2_backend/>]]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in "<RegexURLResolver <module 'django.contrib.auth.urls' from 'E:\\\\practian-ioteca-project\\\\ve_auths\\\\lib\\\\site-packages\\\\django\\\\contrib\\\\auth\\\\urls.py'> (None:None) ^accounts/>"
+[2016-11-28 23:40:50] DEBUG [django.template:929] Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\urls\resolvers.py", line 300, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'path': '', 'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLResolver <module 'django.contrib.auth.urls' from 'E:\\practian-ioteca-project\\ve_auths\\lib\\site-packages\\django\\contrib\\auth\\urls.py'> (None:None) ^accounts/>], [<RegexURLResolver <module 'oauth2_provider.urls' from 'E:\\practian-ioteca-project\\ve_auths\\lib\\site-packages\\oauth2_provider\\urls.py'> (None:oauth2_provider) ^o/>], [<RegexURLResolver <module 'oauth2_backend.urls' from 'E:\\practian-ioteca-project\\django_oauth2_backend\\oauth2_backend\\urls.py'> (None:None) ^api/oauth2_backend/>]]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in "<RegexURLResolver <module 'oauth2_provider.urls' from 'E:\\\\practian-ioteca-project\\\\ve_auths\\\\lib\\\\site-packages\\\\oauth2_provider\\\\urls.py'> (None:oauth2_provider) ^o/>"
+[2016-11-28 23:40:50] DEBUG [django.template:929] Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\urls\resolvers.py", line 300, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'path': '', 'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLResolver <module 'django.contrib.auth.urls' from 'E:\\practian-ioteca-project\\ve_auths\\lib\\site-packages\\django\\contrib\\auth\\urls.py'> (None:None) ^accounts/>], [<RegexURLResolver <module 'oauth2_provider.urls' from 'E:\\practian-ioteca-project\\ve_auths\\lib\\site-packages\\oauth2_provider\\urls.py'> (None:oauth2_provider) ^o/>], [<RegexURLResolver <module 'oauth2_backend.urls' from 'E:\\practian-ioteca-project\\django_oauth2_backend\\oauth2_backend\\urls.py'> (None:None) ^api/oauth2_backend/>]]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in "<RegexURLResolver <module 'oauth2_backend.urls' from 'E:\\\\practian-ioteca-project\\\\django_oauth2_backend\\\\oauth2_backend\\\\urls.py'> (None:None) ^api/oauth2_backend/>"
+[2016-11-28 23:40:50] WARNING [django.request:152] Not Found: /
+[2016-11-28 23:40:50] WARNING [django.server:131] "GET / HTTP/1.1" 404 2251
+[2016-11-28 23:40:59] DEBUG [django.template:929] Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\urls\resolvers.py", line 300, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'path': 'api/oauth2_backend/', 'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLResolver <module 'django.contrib.auth.urls' from 'E:\\practian-ioteca-project\\ve_auths\\lib\\site-packages\\django\\contrib\\auth\\urls.py'> (None:None) ^accounts/>], [<RegexURLResolver <module 'oauth2_provider.urls' from 'E:\\practian-ioteca-project\\ve_auths\\lib\\site-packages\\oauth2_provider\\urls.py'> (None:oauth2_provider) ^o/>]]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+[2016-11-28 23:40:59] DEBUG [django.template:929] Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\urls\resolvers.py", line 300, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'path': 'api/oauth2_backend/', 'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLResolver <module 'django.contrib.auth.urls' from 'E:\\practian-ioteca-project\\ve_auths\\lib\\site-packages\\django\\contrib\\auth\\urls.py'> (None:None) ^accounts/>], [<RegexURLResolver <module 'oauth2_provider.urls' from 'E:\\practian-ioteca-project\\ve_auths\\lib\\site-packages\\oauth2_provider\\urls.py'> (None:oauth2_provider) ^o/>]]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in "<RegexURLResolver <module 'django.contrib.auth.urls' from 'E:\\\\practian-ioteca-project\\\\ve_auths\\\\lib\\\\site-packages\\\\django\\\\contrib\\\\auth\\\\urls.py'> (None:None) ^accounts/>"
+[2016-11-28 23:40:59] DEBUG [django.template:929] Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\urls\resolvers.py", line 300, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'path': 'api/oauth2_backend/', 'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLResolver <module 'django.contrib.auth.urls' from 'E:\\practian-ioteca-project\\ve_auths\\lib\\site-packages\\django\\contrib\\auth\\urls.py'> (None:None) ^accounts/>], [<RegexURLResolver <module 'oauth2_provider.urls' from 'E:\\practian-ioteca-project\\ve_auths\\lib\\site-packages\\oauth2_provider\\urls.py'> (None:oauth2_provider) ^o/>]]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in "<RegexURLResolver <module 'oauth2_provider.urls' from 'E:\\\\practian-ioteca-project\\\\ve_auths\\\\lib\\\\site-packages\\\\oauth2_provider\\\\urls.py'> (None:oauth2_provider) ^o/>"
+[2016-11-28 23:40:59] WARNING [django.request:152] Not Found: /api/oauth2_backend/
+[2016-11-28 23:40:59] WARNING [django.server:131] "GET /api/oauth2_backend/ HTTP/1.1" 404 2188
+[2016-11-28 23:41:21] DEBUG [django.template:929] Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\urls\resolvers.py", line 300, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'path': 'api/', 'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLResolver <module 'django.contrib.auth.urls' from 'E:\\practian-ioteca-project\\ve_auths\\lib\\site-packages\\django\\contrib\\auth\\urls.py'> (None:None) ^accounts/>], [<RegexURLResolver <module 'oauth2_provider.urls' from 'E:\\practian-ioteca-project\\ve_auths\\lib\\site-packages\\oauth2_provider\\urls.py'> (None:oauth2_provider) ^o/>], [<RegexURLResolver <module 'oauth2_backend.urls' from 'E:\\practian-ioteca-project\\django_oauth2_backend\\oauth2_backend\\urls.py'> (None:None) ^api/oauth2_backend/>]]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+[2016-11-28 23:41:21] DEBUG [django.template:929] Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\urls\resolvers.py", line 300, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'path': 'api/', 'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLResolver <module 'django.contrib.auth.urls' from 'E:\\practian-ioteca-project\\ve_auths\\lib\\site-packages\\django\\contrib\\auth\\urls.py'> (None:None) ^accounts/>], [<RegexURLResolver <module 'oauth2_provider.urls' from 'E:\\practian-ioteca-project\\ve_auths\\lib\\site-packages\\oauth2_provider\\urls.py'> (None:oauth2_provider) ^o/>], [<RegexURLResolver <module 'oauth2_backend.urls' from 'E:\\practian-ioteca-project\\django_oauth2_backend\\oauth2_backend\\urls.py'> (None:None) ^api/oauth2_backend/>]]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in "<RegexURLResolver <module 'django.contrib.auth.urls' from 'E:\\\\practian-ioteca-project\\\\ve_auths\\\\lib\\\\site-packages\\\\django\\\\contrib\\\\auth\\\\urls.py'> (None:None) ^accounts/>"
+[2016-11-28 23:41:21] DEBUG [django.template:929] Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\urls\resolvers.py", line 300, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'path': 'api/', 'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLResolver <module 'django.contrib.auth.urls' from 'E:\\practian-ioteca-project\\ve_auths\\lib\\site-packages\\django\\contrib\\auth\\urls.py'> (None:None) ^accounts/>], [<RegexURLResolver <module 'oauth2_provider.urls' from 'E:\\practian-ioteca-project\\ve_auths\\lib\\site-packages\\oauth2_provider\\urls.py'> (None:oauth2_provider) ^o/>], [<RegexURLResolver <module 'oauth2_backend.urls' from 'E:\\practian-ioteca-project\\django_oauth2_backend\\oauth2_backend\\urls.py'> (None:None) ^api/oauth2_backend/>]]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in "<RegexURLResolver <module 'oauth2_provider.urls' from 'E:\\\\practian-ioteca-project\\\\ve_auths\\\\lib\\\\site-packages\\\\oauth2_provider\\\\urls.py'> (None:oauth2_provider) ^o/>"
+[2016-11-28 23:41:21] DEBUG [django.template:929] Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\urls\resolvers.py", line 300, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'path': 'api/', 'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLResolver <module 'django.contrib.auth.urls' from 'E:\\practian-ioteca-project\\ve_auths\\lib\\site-packages\\django\\contrib\\auth\\urls.py'> (None:None) ^accounts/>], [<RegexURLResolver <module 'oauth2_provider.urls' from 'E:\\practian-ioteca-project\\ve_auths\\lib\\site-packages\\oauth2_provider\\urls.py'> (None:oauth2_provider) ^o/>], [<RegexURLResolver <module 'oauth2_backend.urls' from 'E:\\practian-ioteca-project\\django_oauth2_backend\\oauth2_backend\\urls.py'> (None:None) ^api/oauth2_backend/>]]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in "<RegexURLResolver <module 'oauth2_backend.urls' from 'E:\\\\practian-ioteca-project\\\\django_oauth2_backend\\\\oauth2_backend\\\\urls.py'> (None:None) ^api/oauth2_backend/>"
+[2016-11-28 23:41:21] WARNING [django.request:152] Not Found: /api/
+[2016-11-28 23:41:21] WARNING [django.server:131] "GET /api/ HTTP/1.1" 404 2263
+[2016-11-28 23:41:28] DEBUG [django.template:929] Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\urls\resolvers.py", line 300, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'path': 'api/oauth2_backend/', 'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLResolver <module 'django.contrib.auth.urls' from 'E:\\practian-ioteca-project\\ve_auths\\lib\\site-packages\\django\\contrib\\auth\\urls.py'> (None:None) ^accounts/>], [<RegexURLResolver <module 'oauth2_provider.urls' from 'E:\\practian-ioteca-project\\ve_auths\\lib\\site-packages\\oauth2_provider\\urls.py'> (None:oauth2_provider) ^o/>]]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+[2016-11-28 23:41:28] DEBUG [django.template:929] Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\urls\resolvers.py", line 300, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'path': 'api/oauth2_backend/', 'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLResolver <module 'django.contrib.auth.urls' from 'E:\\practian-ioteca-project\\ve_auths\\lib\\site-packages\\django\\contrib\\auth\\urls.py'> (None:None) ^accounts/>], [<RegexURLResolver <module 'oauth2_provider.urls' from 'E:\\practian-ioteca-project\\ve_auths\\lib\\site-packages\\oauth2_provider\\urls.py'> (None:oauth2_provider) ^o/>]]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in "<RegexURLResolver <module 'django.contrib.auth.urls' from 'E:\\\\practian-ioteca-project\\\\ve_auths\\\\lib\\\\site-packages\\\\django\\\\contrib\\\\auth\\\\urls.py'> (None:None) ^accounts/>"
+[2016-11-28 23:41:28] DEBUG [django.template:929] Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\urls\resolvers.py", line 300, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'path': 'api/oauth2_backend/', 'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLResolver <module 'django.contrib.auth.urls' from 'E:\\practian-ioteca-project\\ve_auths\\lib\\site-packages\\django\\contrib\\auth\\urls.py'> (None:None) ^accounts/>], [<RegexURLResolver <module 'oauth2_provider.urls' from 'E:\\practian-ioteca-project\\ve_auths\\lib\\site-packages\\oauth2_provider\\urls.py'> (None:oauth2_provider) ^o/>]]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\practian-ioteca-project\ve_auths\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in "<RegexURLResolver <module 'oauth2_provider.urls' from 'E:\\\\practian-ioteca-project\\\\ve_auths\\\\lib\\\\site-packages\\\\oauth2_provider\\\\urls.py'> (None:oauth2_provider) ^o/>"
+[2016-11-28 23:41:28] WARNING [django.request:152] Not Found: /api/oauth2_backend/
+[2016-11-28 23:41:28] WARNING [django.server:131] "GET /api/oauth2_backend/ HTTP/1.1" 404 2188
+[2016-11-28 23:51:33] DEBUG [django.db.backends:90] (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[2016-11-28 23:51:33] DEBUG [django.db.backends:90] (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
